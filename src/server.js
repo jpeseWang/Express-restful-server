@@ -13,7 +13,7 @@ app.set("views engine", "ejs");
 
 //routes declarations
 app.get("/", (req, res) => {
-  res.send("Hello World w server");
+  res.send("Hello World w leif");
 });
 
 app.get("/about", (req, res) => {
